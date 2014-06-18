@@ -1,0 +1,46 @@
+{
+        "articles": [
+                {
+                        "title": "Article Title 1",
+                        "tags": ["tag1","tag2"]
+                },
+                {
+                        "title": "Article Title 2",
+                        "tags": ["tag2", "tag3"]
+                },
+                {
+                        "title": "Article Title 3",
+                        "tags": ["tag3"]
+                }
+        ],
+
+        "chapters": [
+                {
+                        "title": "Book Chapter Title 1",
+                        "tags": ["tag1","tag2"]
+                },
+                {
+                        "title": "Book Chapter Title 2",
+                        "tags": ["tag2", "tag3"]
+                },
+                {
+                        "title": "Book Chapter Title 3",
+                        "tags": ["tag3"]
+                }
+        ],
+
+        "reviews": [
+                {
+                        "title": "Review Title 1",
+                        "tags": ["tag1","tag2"]
+                },
+                {
+                        "title": "Review Title 2",
+                        "tags": ["tag2", "tag3"]
+                },
+                {
+                        "title": "Review Title 3",
+                        "tags": ["tag3"]
+                }
+        ]
+}

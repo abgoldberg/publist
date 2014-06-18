@@ -1,0 +1,45 @@
+<html>
+<head>
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="publist.js" charset="utf-8"></script>
+<style>
+
+body {
+   font-family: Helvetica, Arial;
+   font-size: 12px;
+}
+
+#pubs li {
+   margin-bottom: 1em;
+}
+
+#pubs .pub-type {
+   margin-top: 1em;
+}
+
+.tag-button {
+    padding: 2px 6px;
+    margin: 4px;
+    border: 1px solid black;
+    border-radius: 3px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tag-button.small {
+    padding: 1px 3px;
+    margin: 2px;
+    font-size: 10px;
+}
+
+.tag-button.selected {
+    background-color: yellow;
+}
+
+</style>
+</head>
+<body onload="onload()">
+<div id="tags"></div>
+<div id="pubs"></div>
+</body>
+</html>
